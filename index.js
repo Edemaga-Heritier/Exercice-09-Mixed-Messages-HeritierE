@@ -1,13 +1,13 @@
-let qualite =['humilite','sagesse','gentil','inteligent'];
-let noms =['heritier','paul','job','joe'];
-let action =['coach','proffesseur','mentor'];
+const qualite = ['humilite', 'sagesse', 'gentil', 'intelligent'];
+const noms = ['heritier', 'paul', 'job', 'joe'];
+const action = ['coach', 'professeur', 'mentor'];
 
 function genererMessage() {
-    let adjectifAleatoire = qualite[Math.floor(Math.random() * adjectifs.length)];
-    let nomAleatoire = noms[Math.floor(Math.random() * noms.length)];
-    let actionAleatoire = action[Math.floor(Math.random() * actions.length)];
-  
-    return `Ce ${adjectifAleatoire} ${nomAleatoire} ${actionAleatoire} des messages.`;
-  }
-  
-  console.log(genererMessage());
+    const qualiteAleatoire = qualite[Math.floor(Math.random() * qualite.length)];
+    const nomAleatoire = noms[Math.floor(Math.random() * noms.length)];
+    const actionAleatoire = action[Math.floor(Math.random() * action.length)];
+
+    return `Ce ${qualiteAleatoire} ${nomAleatoire} ${actionAleatoire} des messages.`;
+}
+
+console.log(genererMessage());
