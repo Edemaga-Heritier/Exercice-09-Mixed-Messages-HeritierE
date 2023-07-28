@@ -1,6 +1,6 @@
 const qualite = ['humilite', 'sagesse', 'gentil', 'intelligent'];
-const noms = ['heritier', 'paul', 'job', 'joe'];
-const action = ['coach', 'professeur', 'mentor'];
+const noms = ['heritier', 'paul', 'job', 'joe','afho'];
+const action = ['coach', 'professeur', 'mentor','conseille'];
 
 function genererMessage() {
     const qualiteAleatoire = qualite[Math.floor(Math.random() * qualite.length)];
